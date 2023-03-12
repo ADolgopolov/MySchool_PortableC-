@@ -1,0 +1,3927 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="MySchool_v2.exe" version="1.0.0.4" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="crown2.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="MySchool_v2" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="MySchool_v2.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MySchool_v2.exe" size="523760">
+      <assemblyIdentity name="MySchool_v2" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>jhOYcLNn2PsSF6RE5EDbjTWaIn1RRETWDWLJA0Txd9c=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="crown2.ico" size="58936">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>dzA5gKtxzff1lpXaTr2c4DHGpcj2/p7Sm149f61+NS0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="MySchool_v2.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_01\arm.mp3" size="8149">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>7lkrmb1oh+MyLLb5bOQ8e5BK66L8EdT3XklL2SLY/ew=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_01\aunt.mp3" size="6268">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>j/ClopzVHYfuuSNRbhDVe+O/3nWz8OPH83R+PNwKlEo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_01\baby.mp3" size="7522">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xUw3Og2f3v5gLI3JU6UgNeFFzwLknBkFColaVvELfkU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_01\body.mp3" size="5223">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ECWyywIpseCYdoNbf96mj8VVUcGdzZTiGLdOPBwOD9E=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_01\boy.mp3" size="4387">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>GOhUvwjMu0zKupPjDqPzIUbwHDjoDO7vy2elIXy3a5o=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_01\brother.mp3" size="18413">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>lQWxZBII3gubjobp+TIfPZTNTD45MX5qYTD2dvjvgGc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_01\cheek.mp3" size="16846">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>IQHrHg85ebSMKttryRjGjt4QDLD06GV7yIRiPu8dpA4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_01\child.mp3" size="19458">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>IBhVbPpDSwDUHYM+0AyE1Y0CCDqSD3+il9SUWI8gEps=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_01\children.mp3" size="22070">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>GKFuWb6y9AsDy0Mq/TGp47rOqMRDH6kJRYltr1gdKj8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_01\colleague.mp3" size="19458">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>kd9RX+Zbg/9Cc+Lilgc/cHHfSgpAvJEyebM8y9kHMPo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_01\daughter.mp3" size="18413">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>TGSK4z5ejye5VGT9mCrH/ft/7P+OqnY1PJPZY5Fx1Q4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_01\delicious.mp3" size="22070">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>iqUsy2+vKb/U7k5xJ6tOCRLf5X6FAe9jEzuA7w6iQcY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_01\ear.mp3" size="5223">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6Z4tGC/7933rNW6JmnS7+5Ns0c/DRSKslBikydvYmTY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_01\eye.mp3" size="5432">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>qx1JxhRgJuVBTSvBLUacbHQhIwzyKZJvyi4zLVT3tNg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_01\face.mp3" size="7940">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>20faRFTSFvtoJ+QUpABXAm3Ue6LONk3oef5W4oFQJoU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_01\family.mp3" size="13711">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>3IpXHDDLZhokd9lk62Rl/aqq23K0Pr9CtYhliJm045g=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_01\father.mp3" size="19458">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>wNAYgHf6MDkg/OqGV4zoDkvSJeL2NfqlJ049cyA0mtI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_01\finger.mp3" size="20503">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>BinhZVPVa8JLQlEPznmPBB5SvwyrkdslbBRxlOGC54A=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_01\foot.mp3" size="8149">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>dteAeAoC5MgRgNIxrzXc0ufNskr9l4KEccS8gTbExnU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_01\friend.mp3" size="17891">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>jLeMIXD2+tB7h/dE4BYECsDWO01llePSVu/U4NRR8t8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_01\girl.mp3" size="5432">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>7AD1wFSfFGHGdz8Cy7K2iqFXjn8Ps08vAv4AwgF904c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_01\granddaughter.mp3" size="23638">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>k1aPp/VWX9q++ep6gQSQDEkj5kJS4uYZYRU/3VdjrGs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_01\grandfather.mp3" size="23115">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>QsAI87B6Pq+VsvxNGTQ+mFTNmFdX2mrY2MYUW/Vcm2Y=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_01\grandmother.mp3" size="21548">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>/EGzWYLdxiCrd5HOSNwbNO453Bw6HpM/VYEK/fu/pZc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_01\grandson.mp3" size="21548">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>0ZjAR5Mfn58wKQ/rtPHbwoIf/Kz8kxBpfcYqNPTP0Bo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_01\hair.mp3" size="7313">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>dFh4VE6R426keC+JwwSci+iZevhbVDHSPm101bg+j0U=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_01\hand.mp3" size="8358">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>yoH1qrNIum859+q4pPlSUjFZ3fe7n1waHtVm/c6eAqk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_01\head.mp3" size="9612">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>C85jbJqGmMpVfC5G5BW8KiCCbxKjEh0va0UoP0bywCU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_01\human.mp3" size="16846">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>EFh8UC0l/AO4q8CRHYXfUWymbWqrRHbzX33oYcfEkaE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_01\husband.mp3" size="20503">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>d9yPXKUZj9wUUrxdXIcvTeYiUrPU9I0b2lZekMoEBIE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_01\leg.mp3" size="5014">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ARFMsjeFcgzLRMbpQhAU0ah5ehGA9UylMRNck6RZXG4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_01\lip.mp3" size="4596">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>acOk06wSyyvW51YCzRBbwdogLEt6CW1JFcDFZSnd9+o=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_01\man.mp3" size="6268">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>4OzfJ2gG43GApciKyKQcHE6960SWHBQHFqL+9d7RsvA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_01\mother.mp3" size="17891">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>JtpilNiNJJk9aE0Kfc0Ils9nCi1AeMyIL6B3RoA0XGA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_01\mouth.mp3" size="16846">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>l3pfqiazjBlkGT/GJhs+vZOyDb58S7Rzv5UDT/vTk/8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_01\name.mp3" size="6477">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>XC1adALRUfZ9jq5eNeu8PioJJNYHFJl6eK+z79ToPd0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_01\neck.mp3" size="6059">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>RzrFAuy4Mz7qRgA3wHo1J1NetSuLFQ/h/VQC9qOZeL0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_01\neighbour.mp3" size="18413">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>wy4J520wvv+xmc0AUpwJnM5YS14t8YI0Fw+1/dKiruY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_01\nephew.mp3" size="18413">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>9fDigaPOS/Jvc5V4O+jrlzGNYep0GPBsyGHzCFHa1XA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_01\niece.mp3" size="16324">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>7IHP/YDMHP/sgtICaFs0w7E8O83an+C8SI2HPe4LnSk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_01\nose.mp3" size="6268">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>J/uDvfsfeMqnVL4bbYLAbt6Ue8SPxwCEC3qy8a+l/aI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_01\parents.mp3" size="16846">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>W0VCMOgeU0TeGWXieDvt4FFGsP5rldUcSRbGHy+sJ90=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_01\people.mp3" size="16324">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>z4DroVaN5/9hr1XGIMAzFQ5b/OwUOmZGQBGzPzbeSYI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_01\person.mp3" size="17891">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+rcMKfN5PPlFagMV87+JzfSml9vCJrh7KDtmruUeAKw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_01\relative.mp3" size="20503">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>gSYSij9XirluJhJlO9Sm2TrFYmDlk7Fr675nfVxZljU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_01\shoulder.mp3" size="20503">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>BCKXO/mpDMth/FhbY82yxXW0YRDw4KFb5Kg8LR6lXzc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_01\sister.mp3" size="21026">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>u21BUaxhEife90j50yF26yzRYPAko+j3wT62yqfQN9M=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_01\son.mp3" size="5432">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>iGEqFkt8GSxGVpbYaByvZA8HEXp0hSrbyRmxdkJfURU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_01\surname.mp3" size="22593">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Es23vzHliFcxLXKRdJOXvYPBWwZ4uBVUMnjSwiaXdV8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_01\tooth.mp3" size="16324">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>NMXUwzkrDSsIjG63Udb29vx1/i5vbJmifNkj/B/De8s=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_01\uncle.mp3" size="18413">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>a34TYDpGg6BlWTz/q+4HWKrV+oW3yN6X4FidX1ssaGo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_01\wife.mp3" size="5014">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>4Feste4/su+Q3aMhs5iyoAI93EmCumq6JblIDkcsC3w=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_01\woman.mp3" size="16846">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>nGqGXQNLNFdZmFFGtpQ7HGQ+TKaSyBa4wWf+dt/6ELU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_02\air.mp3" size="4805">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>CzYeIsr/qRGx6dvZFr8LIjXvEjjNCiuhuHQMFnpbptE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_02\bag.mp3" size="5014">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+jR4ie5HlAC0IWU89B0GOdjKWH/lcXE3Qw3k3gyNrrc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_02\blouse.mp3" size="17891">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>NZLUvrXcVpdvPF9nir07gTdMsjeeUP+cenIXtuCzfO4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_02\book.mp3" size="15279">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>aFlnBDkW+Si1rokQBSrDHZb2Hj1wrlOleoAeDS2sOpI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_02\bottle.mp3" size="16324">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>a55tXWSTRazr78tr+DOv8NnrvhfcBwT1YNoaNvaoeWc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_02\bread.mp3" size="16324">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>grxof5VslE9i2kIyzK83p+3wf9cFG87UKl1bwCa9grk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_02\butter.mp3" size="16324">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>gIJeJg/hIBvV0AKMAXPIHpT62iyDWzApKd+WM+XDIFE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_02\cheese.mp3" size="18936">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ytzm5rNe9TLK/pRkCkyiUvzlZpWOlnOWfeaWTBUp3Hs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_02\chicken.mp3" size="17891">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>XKV1DvnIj0UODyc3Ty+h52EkmORqdcepyEjTsSaDQlk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_02\clothes.mp3" size="19981">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>y3At5iL4NZUFjaLGCTv2Y2MhRlHKfBZPx1sXgJqGyH4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_02\coat.mp3" size="5432">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>V6qzg3eWBVJ9iC2HzGwAdvgfeBBW6CQCiDj9ZzPLhHI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_02\cup.mp3" size="5641">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>GPz/kEOprENP1KkiL73t9CeFGpWY8grxgabBS5qGrcw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_02\dress.mp3" size="13711">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>N/fbeRCT4awZxFD3BfeyUrShX/UWveoKeEGEy8yMQGg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_02\drink.mp3" size="17891">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2lA0O/3clc53m14x6LwDD5KIEbHrnyxZ5Cxu79Ouvw4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_02\fire.mp3" size="5014">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+BCHwgNa3WRjn1BobYmGkmMFyU4HJxjN38TE6tKMjEs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_02\fish.mp3" size="7522">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>gbNDB+aBA5WcNiXw+oAA8p0WsnJu3XAVb4kCfVdGWJA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_02\food.mp3" size="10030">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>tHZwj1kApujGJAqr/4yF6WlcRvxfdL0YkY45mUZ8+1I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_02\fork.mp3" size="4387">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>qKsnQ6PPCxMWG1xzT5Ww9w3YVLpqR/7jdO1AQUomj9U=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_02\fruit.mp3" size="18413">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>70vzAnYttC01XVXhs0a8Sl0MxnjrZjzSGGnseQehddk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_02\glass.mp3" size="19458">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Mxldn6Waz7Pj2nAwt1qcJxAvI+MzBtpPsn/XLG6VkZc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_02\hat.mp3" size="7731">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Zvi9uqTPDgZYYqH+W16ORRvJRR+CzH/qmQv045tSKY8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_02\ice.mp3" size="5850">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>vw3BOgxg+V9Pyq+LXy/kqMn9Z7mWsxtKNFGBMHgpmqM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_02\jacket.mp3" size="14756">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>oqVYkQHr57kRYIV4Mws/UBp92c2eGwLlo237jW3u5Is=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_02\juice.mp3" size="17368">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>FSiDm4gTOavi1e+uAspFOf3U08WOhjNEc+pHytg7Mcs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_02\knife.mp3" size="17368">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>8V0CMUgDWmCGm7OHzZ/F7L3eMAz8r5uWdeTJGlY83ZM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_02\lamp.mp3" size="4596">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>UPNzQ25g42yhMGu6rHPJG4MBz7VqgTJ6NFIU6eXUaqQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_02\light.mp3" size="17891">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>UGAdVRt7sc9X2G1ury9bh8RMODmoYzE+J495BuiaYXc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_02\meat.mp3" size="4805">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>aMp7LjLJXljqwnt91c+mixKJ2xdxDM1ymrO2Kf+pKzc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_02\milk.mp3" size="6059">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>KJ13seepD3gq4R+mfAzr4Q6d+C609ENT1CWXz2rAzuk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_02\money.mp3" size="5014">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>hLQptwBBLLPCFif6RjcdCAIbroCKrZxx18z9nBHps7U=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_02\page.mp3" size="4805">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>uu6l6WDTnf5aSzmtKB5Z7rgysPftzr6/+NZBEC5XiGU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_02\paper.mp3" size="17891">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ocAJjXF94KjVtnDKZN3Bvqx8+U4/yC4pEy8/KvkjXjQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_02\pen.mp3" size="6059">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>KZqTGF9CvhyZdS8RLbVuzs0d/pCzKRMYPanhFEjxpu8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_02\pencil.mp3" size="18936">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>TyCfDwtuHszuKk9Ami0a67qO1QUWmTO0ccRSeuBBtvM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_02\picture.mp3" size="18413">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>aFGqkBIRaTLuPNoxceME2PTE3/+Do5yMAH9FwTqINIQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_02\plate.mp3" size="17368">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>QiaCWng3xdeNUyVKdf19CxwNhDaoFiwpLpDi07Qhskk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_02\pocket.mp3" size="19458">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>GPDhbdtk1xKyQ18vMmZ7EV5rtI+C5fY7KxWw3d16XuA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_02\portrait.mp3" size="22987">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ZjxmUGly/M5YXqmugM6s6NRWIhugp4DObLuQQnChx0o=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_02\salt.mp3" size="6477">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>0XnTL61Ynhr2q3I9xOaDjv10NjE7MIxV5fBW+0ITg48=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_02\saucer.mp3" size="21026">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>E4eDlLC+cdmsfC4JycKf6R+TyguyPnB8BItW57thTn0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_02\shadow.mp3" size="20503">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>SvTAyP+wFLpcSyPB1SAXH5cr1HKPIfkUk3vvFIlvpSs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_02\shirt.mp3" size="16324">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>9Rnj/PIYkB8E2Q4rMHtqiv36MJSBj+Yw7qhz6dKVas8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_02\shoe.mp3" size="5432">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>5HpiR+4vPQUyQS059VIPmpJj2fV8erF6ckW0adptlY4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_02\skirt.mp3" size="19981">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>VmzGsRk5p6J/8LVx123MAg5D3JhrTjPinCVtAhx5Ifs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_02\sound.mp3" size="20503">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+6lByALdIPcor3/4knbxXMAbNQug6siOLnPaQy2NqMo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_02\spectacles.mp3" size="25728">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>8jyXrQ6zEglHfw4PwWQG7615Hksx9ig1cdfDK9ZVgo8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_02\spoon.mp3" size="19981">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Al0DSOCNKYrnLV0w59nzWNy7N4iFzhmfIfcSQz8V0g8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_02\sugar.mp3" size="17368">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>C1BNAlIGeyl1HLkvVwbt5d0ZtHUTvvwnwock1MA+lq4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_02\suit.mp3" size="5432">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Uxs1RF+YomdgcC9I4iR5/7UI28wpVg9QzfSJdKVYPxE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_02\sweet.mp3" size="18936">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>QFPmAAdeziXSc9VAmK53py/C5cpfwI6LrIBFqRKJI30=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_02\sweets.mp3" size="18936">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>QFPmAAdeziXSc9VAmK53py/C5cpfwI6LrIBFqRKJI30=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_02\tea.mp3" size="5014">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>kR+lA5UNbLE/P+rkaUEEw73reXEZeXDZmCNDbGhRsek=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_02\thing.mp3" size="13711">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>1cuTU2Z2Y0u6EcPp/i2h/2f9aueJkc9rCJ4pLRTiCfY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_02\tie.mp3" size="5223">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>j2YWFWr4rfWdVYUBzvRubjLWnwtL5Bl6HI11JLJeI/w=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_02\trousers.mp3" size="22593">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>clDL+i28fNUdIuo7J3OpLhW44irxy8cfdcqeyAepLrE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_02\vegetable.mp3" size="21026">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>TpdVVnbpQBVAkQ9zF5dJC2/1+uGQ3Axblpz77j6uD/A=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_02\water.mp3" size="5223">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ZuxuKR1T6EWdqpmYOdJRJtPZfzq3p0j0QbW/QVx6MLI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_03\absolute.mp3" size="23115">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>U5eLWz0h2idU/6/XgN+7CZirDkqtX6qwINCoX7QHOVM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_03\absolutely.mp3" size="26250">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>GtgMBDst3yjgv7IpFXBApRyfwNiLSiwPCZQIt41nzA8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_03\age.mp3" size="6477">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ezcMWUfNJ5o0/XRDnv9gAp+kedA4EgTBLJWoeWmZa6A=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_03\appearance.mp3" size="24683">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>JnWiAfPU9nc51b4tO9urs6DNNmXd9pwlS/Fic5YyFR4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_03\awful.mp3" size="15279">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>wqQopQUARFF/HZ6afwlBU2H4W+Vsx7KjCQUy7BMCQ2c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_03\awfully.mp3" size="15279">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>EtprPFKmnKCw/LWO+xCmapp497hErqFMx9JZW7A7uYk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_03\beautiful.mp3" size="16324">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>SJgxmbnyL2XUib8BXQo/0G/KK9Eprur/M2szSvF4fFk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_03\black.mp3" size="16324">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>p5fxZIIrexs0HxIRuL4uV0upteUJCV8NhMHAdQwnY8g=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_03\blue.mp3" size="5014">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>TKzB1VWK59etPd6qkNsnocNSXnuSOT8OjFkMp1EPAtI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_03\brown.mp3" size="20503">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6TRTOzFiczfWPtW1RgJ3p1LiHsWaAX8OrL3BcYl76SI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_03\cold.mp3" size="5641">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>csKM2XzxFP1kH8el/lWfWH6+eAFDBRraX4uFK+mDbVA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_03\complete.mp3" size="19981">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>197IXGdAvAAcBDBp2VW5FIjqAyQ541Aook5zydkE/Ws=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_03\completely.mp3" size="21026">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Swy1pwsrYH0x3lnDj218CJAlJAbPlLCv/N7Z82jrpjY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_03\dark.mp3" size="5432">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>7QQYfteCPkKeZEUUdle/w14TQrHInDVa8OLQI8nt6LI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_03\fairly.mp3" size="19458">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>SXd4rLPLXYB5M6xgTruP2g/NREU73N4U1vCzcBTWklM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_03\green.mp3" size="17891">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>d2O8WXj7LB0+ma/dDNFlqSRgdA9qpvGLi3uZEn0st1c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_03\grey.mp3" size="6059">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>m2pEMFZwD1vHko+Tq+pGMNPwt3jHHX9Z2neYxt42fp4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_03\group.mp3" size="18413">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rVzH8XJZ1EKpnKgy1yKBocvdRSzrcPeBSy1RZiaJ1RA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_03\handsome.mp3" size="18413">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>IqD4hQzk7DolMWHwMlQgFfQC2TmXgEMB0OFLhXphAao=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_03\heavy.mp3" size="15279">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>hEuKMhA/7ZcFd2Gj5FYGiVNJNHsKFbONjywIseKuUiY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_03\hot.mp3" size="4178">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>dZXykBFTkAonKkfbBKy+0GfPaFNTGvjOwMrWpTCnlLY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_03\how.mp3" size="8358">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>AF3tolWvVTTPIW7QpAu283vVD2OueVt3dpKb2Z5Xk6Y=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_03\it.mp3" size="4805">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>MsVysjHYdirIZqX4H1wQEbGW+Qf8HfOS+C5gNU6SLxg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_03\kind.mp3" size="7104">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>p1xTpUsN/Mk3yGPVlFR0XBFIaQhAfMWO/05qPMY2Pmw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_03\light.mp3" size="16846">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>KGK1k35Kdxp0ZJE5aesWtY74WSyUW+bxR0A8Pz3OCrY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_03\member.mp3" size="18413">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>M20Avjvdb79/8KKnn0xltbrqd5sBWrHzChMAu1JNHdw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_03\middle.mp3" size="17891">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>OxqugJfytAXW1XQZO72z6sFsN+NHk9W7qkfq/UOQttI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_03\old.mp3" size="7522">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>9Bj9BcnqKsVM//kF7iq9qDf7dvfQJC6txb44xFJeQCE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_03\orange.mp3" size="19458">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ayuQ23ry4iUHeldUUZpfrBtqCLIebniQSaCHgL0ooFs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_03\part.mp3" size="7104">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>EsCKhzBlwXBR5Q+RtnDmUv8P9f7hpGB6fasEbbXD3vw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_03\piece.mp3" size="16324">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>upqxcIG6rNXRS1qsR69E2gKUSysLHI5EGmcZ2lsy6ro=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_03\pink.mp3" size="6059">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>KaBUziIx15ZY8rFZci1nLLlp+EpM08QyryeP7gO1t8Q=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_03\purple.mp3" size="16846">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ZNqceunp2Rtb012FXQdd49vDgI4JDw74wPj+DwJm4yE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_03\real.mp3" size="5641">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>3Wtprx4Pph9mlsgzkCvoW7IID0HFC9+dr8OS/91v6q4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_03\really.mp3" size="18413">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>lRNiCLFqySM+JuleqlKZU0eIB4WHicAFzYa/bykQVq8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_03\red.mp3" size="5223">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>FSOLL1NwT5kpj7UjTyBlt+KJrlbSUaTd/zYtpsbDiTA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_03\shape.mp3" size="14234">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>XdkmvpqZqMwPMi9b4ORmQQKqI3r4riIaI85RTh9lG5I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_03\short.mp3" size="19458">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Jy07xlvZrUMom2z2+pY9s9hg8lOypoEIN/JlxPwsH18=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_03\size.mp3" size="7313">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>KaBXWazyT8uI4cpnH4VjfLtRCl4ayI0ALNEf7vWCWMw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_03\slight.mp3" size="21548">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>YJnC54uqLSYmB2CS4r0hhG2BwtW0Qo2T+QA5wojq6Zc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_03\slightly.mp3" size="21026">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>RDKs47/P2yhoRDc15E2dbi3odd3xigzV8Y+OOQGLhA4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_03\slim.mp3" size="6686">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>9KTdirfoPERoSu1N/je/sPeWmEdtGZAMxqRHGG89HXw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_03\sort.mp3" size="5432">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>hl5ddpoSOR3ES+U99v45wtnCaClXCmz/8oFwezVDVX0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_03\stout.mp3" size="23115">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>wb8EsURqq83+to/AtFn8mWflqIEluh512hILXBkLqc8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_03\tall.mp3" size="5223">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>1PsshYBfXxaGBK6IExlxdNtVauKbwEPVq2L1f1NaANs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_03\temperature.mp3" size="21548">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>wnWB8yzaiihOTWVsi6Q94aAzy/bDuhYzh6F4H3PxfjQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_03\terrible.mp3" size="16324">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>VSlC1fMXmK7y3RTEfcQQyAQfEabwXFA7s2JnihK7Pog=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_03\terribly.mp3" size="21026">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>qrgsaUQ0Ic+OyHj2tdI3AjUgUSE1J1dtLz7XDTeJvSA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_03\that.mp3" size="6059">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>99bzRggbfNx5ETDxKBG/E28hjqOklwRNxhPi6dwffYw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_03\these.mp3" size="18936">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>YwN+FMZZnf+UvcPcRr3+ZVVmyYXtnuT6STdoH/Scduo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_03\this.mp3" size="7731">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ae1XiWy58ZdfJ8pc/Ms4eKzG5p5WYKQlDpoCtzdhkz0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_03\those.mp3" size="5432">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>QBO/KOksYvTFzqiwScnr/NKgbV0g1FNtXSznON4CCdY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_03\type.mp3" size="4387">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>kZrexMf/6AFdJLsKLTgIieaeXoiBt/KjHbLHKpk5F/A=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_03\ugly.mp3" size="5014">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>JL7zQm+JvnBbPUGWng3Odk+oYKpSap7B7h/4ZN9oHec=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_03\warm.mp3" size="5641">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>02S4QMSiI7/paOrKszQ09yoRZls/WSy0aJgs1p6lQzs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_03\weight.mp3" size="17891">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6Afm17U1ififYw+JSzCi31y4kD5zG/pevsuq+87bUzM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_03\what.mp3" size="5223">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>0EoOiuUcOV49qRb9rLKalMT7RKKx/tw3xq4o7+0vhJs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_03\white.mp3" size="17891">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>uDCcK3+JfN2ZXf81TqGIgevWhgclJ84IsUzdfC3VIh4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_03\who.mp3" size="5850">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>88OiXUV4/IEze9OtABW5gJt0CVLHFNO8IfQ2oWBqLTE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_03\whose.mp3" size="18936">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Ls5BVYj/guRLfsQw1dDdz7V3wgT9hzN+PMTUkzvxPYg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_03\yellow.mp3" size="17891">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>hdkv8dISjLVaFhAfe9z64ZrKFPrMROFo9hP72LjH72E=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_03\young.mp3" size="5432">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>5+6TsXNgAC156bIg95QPcMXJe7ihbIn6/eIdbNl34ik=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_04\angry.mp3" size="17891">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>CGmm+mB/amwxd7RdhpbAzJbbY6dzoISDVc5n2v4/dmo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_04\bad.mp3" size="4805">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>EgWWPuti9Bi6PorIVUALsnoi9mw1P3hnNuVBiHZZtG4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_04\big.mp3" size="4387">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>O2ldRPJ1D8KbrqVRzGN3FqSdOzOr6nlKqC5kJPoqkOU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_04\boring.mp3" size="20503">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>SlobooWFCNdY1nri1bjSteSpEeqCbVLkk8/a4pANzTc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_04\cheap.mp3" size="16846">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>jJ9qUWTP7Xj0NzNQBlJeTVmSeEFMI+xSteACPPcSRHw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_04\clear.mp3" size="16846">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6vaJdQ5YkKRzdQtqRHv/BXOVn8d2cPE3+Hnfvsr5MSk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_04\clever.mp3" size="18936">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>OsV8OB/TePEznSKM+8Wz9wq2N6lhgHx4U/zONPlBqhQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_04\delicious.mp3" size="22070">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>iqUsy2+vKb/U7k5xJ6tOCRLf5X6FAe9jEzuA7w6iQcY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_04\different.mp3" size="19981">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>pHfDkjAFRDbt35m8hnGQlSYDSblDeTFungNj/pNW2GE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_04\difficult.mp3" size="21548">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>pAh5tMr3T1LeEuCVOR0wxv1wKIuleyRM+gO4CMopmes=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_04\dishonest.mp3" size="23638">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>zuF5ggKNpXBSyyLYDzgqmvUNPe947DxTSHHx+BapBLk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_04\easy.mp3" size="5850">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>0BAnVuDW5ZNnRDTY85lheCcs2vrpcd5sPC2l9CQjuAA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_04\expensive.mp3" size="25205">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>4koDZu+Rql8CuJRqPJT9fNsG1YIssnZdMqTbhlHk0Bs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_04\famous.mp3" size="17891">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>sHVMq+ZyYekJSgbLq3yxq42HGdiSuAupGGcg4EX0/hk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_04\fine.mp3" size="6686">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>7EIuoeIy5rqWiWz/9Q50oIR/RdcuGmrTEhMKwf7LPTY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_04\funny.mp3" size="16846">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>OiixP1Ja39vvNsYzSaZgaaUfAeqYlgSRyHMqJYZTZYk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_04\good.mp3" size="4387">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>XBurSWmaNwkRGM7aYA/Vifv/m1pbKAZKNbYHPpeDOUM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_04\great.mp3" size="18413">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>SdnJNx4tC5emDoI/jUol0+DuaFs7IUGAOoRSwUJT1hk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_04\happy.mp3" size="16324">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rt325yk3PvL2MVJpXOHgE377jpmhKEB9xCxKDy656xc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_04\hard-working.mp3" size="25728">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>wcEh9/21ya60GjC8XdYwdoFB/isSaJdSdwZYYKDIKig=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_04\high.mp3" size="5641">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>IJz3aFt8I4teBJ7SfzzwqRQFkTpRB9daK7+xkpCoyeA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_04\honest.mp3" size="19981">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>W3cJz36d11GhFSdHWV/bB3saf1N+hKzoyyXxBfsz3xA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_04\important.mp3" size="23115">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>vt1ydAl+cmXG1Y+XZQFSUTVbDvvUUL9XAwgkGEwxZsg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_04\interesting.mp3" size="17891">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>eajH/IrXqJ/rEFDaEpmCxmZ7d7oWXhiAMgR/SxrsPAI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_04\large.mp3" size="18936">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>tIV2WJHAXU7Bov7pTqR2W6HDS+3a5ZdGlGhFtcBmyLo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_04\lazy.mp3" size="8358">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>kVW6CjCZtiS434mGCyxHKY5SEZrsp36I9B0xdtMxRkw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_04\little.mp3" size="16324">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>51YbLrP9/Mzm2N0a3rt7jvOSqNbz1kYlFLah0jbsxEY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_04\long.mp3" size="5850">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6C6iRnGwqBVrzf4sVBffd44dVDKuj7d0lAHeTfrTN80=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_04\loud.mp3" size="6477">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>CDIp7nRXP1Itlpl7kZUXrtoecMVuVqRiuAJBI961qOA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_04\low.mp3" size="5223">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>vKCE6B6aBrlmXrbJ/A06PvZk3TmNNqCxM0id0MZKrng=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_04\modern.mp3" size="17891">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2cyeVS/knKYMfnw8IShwG3PjsdzhjktQFsjW/67inOA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_04\narrow.mp3" size="17891">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>262AeaZEQhvPVBg5DCXLrolo0iwks4PpQs0YtiZ5pLk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_04\necessary.mp3" size="23115">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>eZAabctzi0edIUMcKnH4k9l6bWjqehqZ+I1lqSR8xLU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_04\new.mp3" size="6268">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>oEjPcIeo2PjHbNDLQvRV4k+3fmrx2Kc7a7Frn+x0RrE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_04\nice.mp3" size="7522">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>5NedBN+p7u5wkC10BZYDF0OxVPfOM57j8D3JDK7cLFI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_04\pleasant.mp3" size="20503">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Y+k14MnckU4nZSPzq4kl1LnmlOgQE9iP0keOTfTJdgA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_04\poor.mp3" size="4596">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>qDX5/Ej0H/u8dWlLSFfynHNi+pPSuE2mRc4jL6VO41s=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_04\quality.mp3" size="15279">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>vW60m9921yI3eearumlResneuFZSF8Otq6uwY065lBE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_04\quiet.mp3" size="19981">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Gpq2c1A1qNWU90gR79ZgNGtiC8uoRa/N55vMxPNLyDs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_04\rich.mp3" size="5223">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>wk3KESCZYed9q6aMUitdq59CgCIE7oqAp4obmeGfG94=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_04\right.mp3" size="5641">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>gohNxa5pfYPrKf+YUeJrcSH5zDGF5YJoLZzcWw4oErM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_04\round.mp3" size="19458">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>nsCkZX1DXxNRvmvn1YSoOMIvEwrJ3UV/DYc8hbN3fq0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_04\sad.mp3" size="6268">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ETkTd49loN7A722govQXQr9X/e7VLDOW+iLJAgup/Z0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_04\serious.mp3" size="19981">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>5/hGq/8te90wvRhDmrLggu9O9BDv1qygXreEW5wPUWM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_04\short.mp3" size="19458">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Jy07xlvZrUMom2z2+pY9s9hg8lOypoEIN/JlxPwsH18=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_04\simple.mp3" size="19458">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>pwizzLqcBUZMo+9iEqBLc31vzbnsqsbTHp4Jzx7ivGs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_04\small.mp3" size="18936">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>eKaDAiBC7zfxk41kM8UdooSOlJhzN7iyvp0PR/xNygk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_04\square.mp3" size="18936">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>v06OLcEnMUHWoDFXtH2pLfRe1vGvNmJjP2zWwLIBxNM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_04\strong.mp3" size="7104">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>0PCm4AbZF11hs56o6BX1DZ6BQWZAfDsHklvHjAJRfA8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_04\stupid.mp3" size="21026">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>3xJ9B/dfkuxufYfhj9VReOjyT7sMp4EZxa+Ge53wwoc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_04\suitable.mp3" size="21548">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ilv/qY+KInRbrZCkH9sQq9Gs3WbJE+4ZFc8sttD02cc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_04\thick.mp3" size="15801">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>pBRKqhYguUhc50wjj9eZN88Hak5yq4U8V1ya43dk7BE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_04\thin.mp3" size="4596">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>DsdkyIW+oxTDjPwNEkiMtEX0z4a4xkKsLcmJLsybcY0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_04\true.mp3" size="5223">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ayEuRA9UNYeLFOzInCma0e9wXhwUEPJT3WDIKKNeYmw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_04\unpleasant.mp3" size="25205">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+OjAd8+OYXAaw3vx3eQgniQLlwKVBuK91dYgBdVc6vU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_04\useful.mp3" size="18936">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>mCKaoD1DcWDPc337g7vaPq4ZSLH0m2KeDfk6+hGzPEM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_04\weak.mp3" size="5432">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>kHCJwHeIMwQl/M74ZvjmVHKv6O26qPKHiH7t4etTl/c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_04\wide.mp3" size="6477">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>gyjt7nHXSyPjxDgA7A+YHhXpZX0cL2TWgyQfcQsbccg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_04\wrong.mp3" size="17368">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Bb4poJojuctuFV0bQUtk/suZBI9Y1K5QHcGDT34tmOU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_05\balcony.mp3" size="18413">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ea/bUMV838xuAcTU06D1ikFRr7VDKO8knVEYst7wGnA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_05\border.mp3" size="18413">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>j7Vt45foZ1fuSanyP2/hBdmu0DQ0FaSYTxNYNBGSuX0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_05\bridge.mp3" size="17891">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>dopLaUOnw+QE1A1m2PvvHq8meK1VgvlwCS+TCPUY/KU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_05\building.mp3" size="18413">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>taVn2RInPQCK8XXCyGd+dl1dEyItxxYo1HpsOOl50so=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_05\capital.mp3" size="18413">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>CVL51dpV2s6DYIyEOVK4kokxjilhbUTTBz0yFWHUoew=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_05\centre.mp3" size="19330">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>U+w83tggw0Xa5upa0wg8UU3Ul+BiaGytuNTpxxhnp/Q=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_05\citizen.mp3" size="21026">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>owfudVLEfP/dA/gQKE6K8ioo6ugNQooiOSFKiKvNHQ8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_05\city.mp3" size="5014">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>7RLlD2wKHee/vSCxSfkgjHe0oUpWsxcBFRm8440twQ8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_05\country.mp3" size="20503">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>VUxbqg80VRZiKmZJjBbTiRURfOdwSB1fhJ5j3AzjCCQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_05\countryside.mp3" size="24683">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>FAeVsMkRvdjZmD8QxTwZGArjQ7D/IqBu0VLj6tJkmaY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_05\district.mp3" size="21026">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>AliuC/NezTz/gjBT2Uo/AxpJ5XMJCkY2XgbZl28dcv4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_05\door.mp3" size="5641">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rsCAw7yMwJ+M6/5ndKewrd6OQZhnWAskNyp2HwQb4h0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_05\farm.mp3" size="6477">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>fw+Ohyyv3X58Yp5XZa9Sm58/Dr9snMBBM7osWnH7ENQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_05\field.mp3" size="18413">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ajo08bnYwgIVNudLQ8Yq+5u9WVNE4WXrUAZ/847WZds=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_05\flower.mp3" size="16846">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xmVPm20/vyQ3o2zekApmxZ2i7LhsW0TeJSrPZ4CR4ok=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_05\foreign.mp3" size="7424">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2NZqHBn2wQYiLkZNVPo5rPfnxk/C6JLpD1qQrubj9YM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_05\forest.mp3" size="21026">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>K9ErgkmCaiYeHXBKQLVIQM5RmfPyXIJ5zZTQYwwA84Y=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_05\garden.mp3" size="18936">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>5fKVT7Esdwipmf2dIwwBlXV9lz4loCW3JrDaobxTtYE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_05\grass.mp3" size="19458">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>YFXg0T3DzHBJz7G1SiOXccahcqM+Qv53x6tWKjqTqg8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_05\ground.mp3" size="21548">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>zZmpXPwsjVUUI9sd4gaOTMySMH3KF6PZ1BngxZqoAuw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_05\hill.mp3" size="4178">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>gL4rSxyl6Qx3ol0yVxz1+NjuBAxEjcODqD53i8qpgeM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_05\hotel.mp3" size="18413">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>wxs+4hSDsKam8xqTc4V6HzWgdxhRayazszgDo8m1DOg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_05\house.mp3" size="16846">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6YNR8QhKTOPTUhifVGDlfW0MMmTZsq0o+zTVAAJBQgo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_05\island.mp3" size="19458">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>mf3RTJTu9Wta5rIniTW7J0pW4FvlDUQRnaJYH8snQko=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_05\lake.mp3" size="4178">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>VFwCK7XvW/lkujVTUXMSn71zopw1v6KvBy4iuiSrJPY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_05\leaf.mp3" size="6059">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Woy4dAVAdmiYA5aiG7q5em+mO3R/MnKO8DxStSoVlsg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_05\leaves.mp3" size="19458">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>OXgZE7XfVF+q/AfMTD0M7IozHBaEjpQ4ny+S2gPHgJE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_05\library.mp3" size="21548">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>nPx6uOa29fcKtM67lu4vn8QNuVKO0UVPwQIkoeDmj4Y=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_05\located.mp3" size="21942">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>zGoGwCjhA7eCRDsc1yUZ9+yxtC7RnJyWkTCoErywdFw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_05\monument.mp3" size="18413">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>DCdW5UeMRulW5GusnoMdlaVP1YzdNX9YxRh8pKMWtKE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_05\moon.mp3" size="7522">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>kb8HHz3pFHI3qEIFC3LIhbjQOJJwHREkeH0HJiRgUoc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_05\mountain.mp3" size="19458">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>cL6W0rjf4wGtDlDVDXnm4n/cl4phIK85MOXYrUh14p0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_05\museum.mp3" size="21548">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>WLbPJSzE05WF8QDBkhA+OlMKkaVKLYoSPeOZsHiX+s0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_05\ocean.mp3" size="16846">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>fKcGDNGQYFYqXi0ZCiVT/1i367sCWgXQln8yxY5CC20=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_05\palace.mp3" size="18413">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>nXbrDEyFKr9a0yD+MpbPr7Yg/zUfHqeqsockq3Ty88o=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_05\plant.mp3" size="19981">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>oSDbvI1SiD7NqZSM1iaqb6eCP/qEj/0vED855Uvdtdo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_05\river.mp3" size="16846">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>bMNg2wpziyiSapyIzqBCQmwIG+VQZdn91rV7AWTFqa0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_05\road.mp3" size="5850">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>3NYzgDIgyHZO9MLOKluuyaH54wMb/IWa+mv+lM7XUfw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_05\roof.mp3" size="4596">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>1D5CRlKuONWGIaYTPB6qaYg2h+ddE7PhNCqiXSbDgdQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_05\sea.mp3" size="5850">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>7OajmH+zkAB2S7Qtnsv3zL9yGvZxNrbYuSFD+/9ILF8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_05\situated.mp3" size="25077">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>hf+mtsnufEkZ25rxf/JKdoxW8+FBhZuMtaD6Fq8eXt0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_05\sky.mp3" size="6477">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>mlTqpoFUjfd1oipEyF42TL/DWgDbUwEwVWxT1mO4Uho=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_05\square.mp3" size="18936">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>v06OLcEnMUHWoDFXtH2pLfRe1vGvNmJjP2zWwLIBxNM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_05\staircase.mp3" size="25728">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>r2mIicLOW2Rc45HwUZO31vLxEB//i+lAnt5UtUcjTJk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_05\star.mp3" size="6477">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Uq3/FAoYTS3t3C2HN7Oi73YEnsM8BPNKxP1s2TPHJAo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_05\street.mp3" size="19458">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>hANbN5+Ds0yyKkmj0MgESwMutqNC27/4z4nHfhtGhf8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_05\sun.mp3" size="5432">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>iGEqFkt8GSxGVpbYaByvZA8HEXp0hSrbyRmxdkJfURU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_05\theatre.mp3" size="20503">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ldxPmWOEh1WpSRxk1DI9V1UbJJc/vIX8pTjLilbQ5r8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_05\town.mp3" size="5223">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ABAD8H6TlwKenBs6xOOg07KcTXv+iBSWlVtAuv2Y7nk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_05\tree.mp3" size="5223">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>gp50H7Xbv2w/PUL32oN0IHXIf0EA/88DvPG94R4H5pw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_05\village.mp3" size="20503">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>HNLM56Tzvx/PlddHm31hfsttkz1c7g5ROgGStErKsfw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_05\wall.mp3" size="5014">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>5Bfo52/i1TORkDPsfkX4nBJ2UcYbdO+8VC+zo9UphgY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_05\where.mp3" size="16846">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>cJMgpz26JJG9wJnkIcHZrZu7uzen2zPwba4p+0HSYNw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_05\window.mp3" size="19458">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>EFlV1DIMMqwldrGnMQgdjH7YJbq02VLdOkZ62O6r4ZI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_06\armchair.mp3" size="21942">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Sc2z2O9q7ntLmkwgtgLXDv9bQj1tS4KVqZgusldaQ7w=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_06\bathroom.mp3" size="23638">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ql8upg1Xf3Ft5ueuemaV4MEYRwB0ugARmOy8cqWPFf4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_06\bed.mp3" size="4178">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>47u02MtzIcs3pO5wpSFVNYlK2j62ZQb7L7epASex7PI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_06\bedroom.mp3" size="21026">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>4SaK5LIdJboPGFQG9Fpe5riUEXgTuzE6tS8ch+cRfFI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_06\bookcase.mp3" size="23115">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>7wQ6V0hSmI9aEMxMrV9eMVfxU3p7OJOA6Vxo7T3DcaI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_06\carpet.mp3" size="17891">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>icoCOSuE/v6RLnCADZDiAeKvk5qItz7czipVquzHYz8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_06\ceiling.mp3" size="20503">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>KqUtzxbi2FM/q1TCDZ9RDVb+vHhl0GjVtuIspO9TIgM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_06\chair.mp3" size="19981">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ImyF1PNAl3UGekU8xy3JWoBRUVcL4Wiz7S4BjI+XBgQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_06\class.mp3" size="19981">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>pSWe6nfye1imhTC35m5nuMizjp0bk6C5Gwx59PW6Q4M=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_06\corner.mp3" size="18936">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>elvgjjsqExWPuZXvSMToe8ey3GRBNcjJO1aOcP5xLK4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_06\cupboard.mp3" size="18413">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>33YQn7cQBvHCpKfoaWKn5lBxcoW7MtZJZvB2u/dcX6A=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_06\curtain.mp3" size="16846">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>gciT35DQIlFdfVeLQAqwc/WcvvJvMm8vgvy21TkvnU4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_06\desk.mp3" size="5432">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>HOxf+an6is/a+axVH3Jw6SZOYNNF/JWQ070DcYy9cf0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_06\educated.mp3" size="23115">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>4Pm2jPt6bcLoAq0IPgtcesr9/pzqY5JNw38NPf3yleo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_06\fireplace.mp3" size="21026">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>iUKSZL36HkFFEDOI/u/mzsRvNvZDjGdE4bNnaOTCqSo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_06\floor.mp3" size="18936">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+9z5MIs8NkB7kcQ2ynYeKwIc3aWn0KWA1VhezjM14FU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_06\furniture.mp3" size="19981">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>QPVA8nmA6j/YbJtBI43D8QHWefwJcHUNTQsPkzcnUHw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_06\kitchen.mp3" size="17891">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>5HmY7TdjQCGg423A1T4lBtSF3G7XMIcpijIQUp2J1c4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_06\knowledge.mp3" size="8358">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>dPInKseFfD57FI72F2YdJpVS3UXfkzyvU2CjWHo0GKM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_06\lecture.mp3" size="18413">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>t2SHvmtkdUG07IrPrERFogmg3pOP0M1PC3BgpMWDJBw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_06\lesson.mp3" size="17891">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xY/uUK0dUmxJaIcHtlSUzNM2F28gx9QJ/1uUAbOZ+xw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_06\living-room.mp3" size="23638">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>TMXUf+rFuZ/UoyNwnaqSNfJ2KKiQLnk1lzHKb7qefck=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_06\machine.mp3" size="19981">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>JDQUQKtIMLe+XKJz2dLdhHeBmyd8SBXimqv4fnKI77o=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_06\nursery.mp3" size="20503">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>94mw7sg5GIEZAqhmZEo82Hf8HwK5dyNvR9bJT58a1oM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_06\pupil.mp3" size="14234">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>QwMRa+cp6OVqYJh6/KjzyoBOwjj8G5lq0J8JNePIeQ4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_06\recorder.mp3" size="21026">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>bBeEyoNmGK7y1UCB/w6odubyMXbUbmJzlO+VQQsUQ/A=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_06\refrigerator.mp3" size="25205">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>0X7P5W/eHicIEMgcRRYKBYuFPybpAZsGzztBASzqw+w=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_06\room.mp3" size="6686">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>vlP1TvMA2wdsUhx//K60zcPLjG04MFTAcjZccmXPXoU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_06\school.mp3" size="18936">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ycF6f13QrZr6+Qo9vs+wT6nH606mcjEcfyOxTNH1lQk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_06\schoolboy.mp3" size="23638">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>8bfyg8cctl9k1T7S600hYT4258Vc7/4f3GBdSoX/WcM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_06\schoolgirl.mp3" size="25205">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>tGm8hb1IEufTROqaO1G02fkzBOm+LWJXxY78QNOkvOo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_06\shelf.mp3" size="17368">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>XW5iZFwtaSkCZgREBVYnKH4VrgmH6brEEdWqbC2wwG8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_06\shelves.mp3" size="22070">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>zxIrLaIaQjCdqoeY0Qg5u3CbbMLJJBeD+G1E/EPhpCo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_06\sofa.mp3" size="5641">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>XEXjWfvgCQeQruMkK8wb+ucyjrzwzP6YBChhZpLo5K8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_06\stove.mp3" size="22593">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>59rKSg2vwjqG1Cj2BTBaSimj557oLdRCalUxwIWn9Vg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_06\study.mp3" size="18936">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>fuPSPnfNNsfLM/C/3hNBVryQ22lgRzv8/yCipXaiv0A=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_06\subject.mp3" size="23115">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>RY1v2QaCJEsSOTS7Gpxs9XULYlwfsFmMUe5MeHQ3zLw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_06\table.mp3" size="16846">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>lWeFQ5G6KnNWyS4IOtELW13/aF2+4TiIpy4mpTZhoUA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_06\teacher.mp3" size="19458">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>MYinrOLBtIqjn9MCo44+qfd75k0si0VFJp3dvL4LLUQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_06\university.mp3" size="22593">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>aqSSC9GgPlp7XGQt91QC6SwkqiPsv/9n/P2HFIELtIQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_06\wardrobe.mp3" size="22593">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>5gI6Dr1SkhrFi5amTymOoEBXbbQpPdFf6TfprxXdZA4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_06\washing.mp3" size="19458">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xUY8/lnsBdR8d441mVseV+sE9R2UYay0bCCbKD6dwD8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_07\accountant.mp3" size="24683">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>0CpnfmW+bFkRcczRAWKgkaZp63n+nXU0mhxUpRA64v8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_07\actor.mp3" size="19458">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>FiAsLtBjbL7d0+/ZW8PR3KC1jc2g9gKEEOcVclPtKq4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_07\actress.mp3" size="19981">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>LDLySsYGb0tmRI56zP6DmTwiXJfx9HuItJoiacuKLhY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_07\architect.mp3" size="21548">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>biYRXvhp3ONl5WhaYHJTk45c1FuBcDivD59x8A9x4Qo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_07\architecture.mp3" size="24683">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>KZhB8CIDrwGLetCUyRNhBmkd6aK5tjDsp9g69iUpT0E=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_07\art.mp3" size="5432">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>vLSQ8Fq8eR+dJkwMy4CdCrAsQy6/yIC88nx4Zhxw+Tg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_07\busy.mp3" size="5014">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>9CutDQCjtgVO/DVw81pCzpHSQWltOcqrg9uknd+20zc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_07\company.mp3" size="19458">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>hCguwkGAncL9r1TPcOS/4xY7bEn8egwWFhKhGfofWQU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_07\composer.mp3" size="22593">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>sFIWriqhYOAj9z4SrfNGmMFE8LSV94Zz4bETL6uQFqc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_07\director.mp3" size="22070">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ca10SCcy3wP4llfYEVOi8luPQBB7Cv4cNwXhVvLCZOM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_07\doctor.mp3" size="18413">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>08VmBVaYex02b5Eg+3JeRZYCq4QZIjOc8ahvz2cbzfg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_07\employee.mp3" size="24032">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Yi38JJYm/I2Lp4fizqLrCPH4FQpelx3vSXrk0QrYwBg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_07\engineer.mp3" size="20503">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>QHOcMUa3U1M5Ot+KuwAH0D3JgUBUtGDakpGqHGhDc4c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_07\favourite.mp3" size="22593">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>fa83NhPKdw4+rtfQPSx62EVSCWyHqkAnjzRGFD2MpcM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_07\film.mp3" size="5223">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Xo8Dym8l2i9pLZvAH7qFFW45FybLeYN6tAzi+nLqbd4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_07\free.mp3" size="5850">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>haI0ak16o+JVC2peOIPUY8msPfrLyVYJ2nALeSleqZE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_07\genius.mp3" size="18936">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>mY+FzVxqI93TwbPfwoO8HwNYk9dwk6WOp4VNtc9fwPQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_07\good.mp3" size="4387">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>XBurSWmaNwkRGM7aYA/Vifv/m1pbKAZKNbYHPpeDOUM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_07\job.mp3" size="5641">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>OXfj0N04Re3SQG7qkQmghncrxD4r6KTSgRHj1pydXIA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_07\journalist.mp3" size="22593">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>/y1HAYdpKnaVOz8rqi6xR3LyUjw0uFZ4UGT/i6+5riU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_07\law.mp3" size="6477">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>LWX3yJqYVxNvQMzam0fl83e+/v3ugIK2Vaqmemb+73I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_07\lawyer.mp3" size="16846">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>3tg2QIFrhS3DC2akR0ZB7IYbST1u2yPu4jHetey/dVk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_07\literature.mp3" size="19981">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>p8mhVnht752WUwj9LDB/QOlTy+bqCpnjCH1gte1fGjk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_07\magazine.mp3" size="23115">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>sSuMVFcZCdjoRaontYLvbw+NZJJE9yUZtdn/E3dRE7U=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_07\media.mp3" size="18413">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>URk1hdSiMmlKYgAzozIEXWBAyUfWXxS059jsYaWTwxM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_07\military.mp3" size="8358">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>z0eDdlk7NatqD4Xq4hq1s6MyOQNYzzZ4DvGg1sNdvxs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_07\movie.mp3" size="16846">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>/VJ7I4/6XQCgt5soVO1Gb4gt2YaEzC4/TRH6CDJ00g4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_07\musician.mp3" size="19981">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>RrFuiEiUMxij0RX3Jz9mM2T3JBipMDGMwjDWhtk6IZk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_07\news.mp3" size="8358">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>REl1PclOiceuF2FxGuYGs/X/VMtf1IwnhQbO82j1mss=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_07\newspaper.mp3" size="23115">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>dR0I9v5MQYFjg+nUuvUyWAH0LeNF6Re+/xo0lsivjV0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_07\novel.mp3" size="16324">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>uyEsoBK3gln9ZGg1elYQs56CKYadAPGd16abRS8fhDk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_07\occupation.mp3" size="22070">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>8CricIHfSiYwKTwU4gMhRxUrEQBBZ98czDTidc6osfo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_07\opera.mp3" size="17891">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>IeoawzrbEUq2n4/PYY87KRcotHEK/Hn7xkDOAjez5FM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_07\organization.mp3" size="26250">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>w5+xGbPUzr61SQSym1BTCLvkwR94usl3Z9AjX5xIVp8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_07\owner.mp3" size="15279">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>/dkpMPdvwDnXOK2JbBRTKVugXOLnhwOpyPsp+Cj/bDI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_07\painter.mp3" size="17891">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>XQjJ8xwJco7nUmrRfXUi1d9ERfR05K97achS9yctjsY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_07\painting.mp3" size="19981">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>3qD4GCkHSFhDEWVVjvYi3LsbxLEnFbAlAEtP1VI+hsE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_07\poet.mp3" size="4178">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>MLqDB+dxDBl/gMqf+jjt6HbxHijaMHiThwV9eXhGnnY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_07\politician.mp3" size="21548">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>QczwrsLQgssZdggfAj8kOdfO5z2zlcSUkPzI1SmVRVY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_07\popular.mp3" size="16324">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>3kGWz8Z7xq/3FtLs13ZtyUs/la12TYElDVyxxDvgc+Y=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_07\property.mp3" size="19981">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>q2eJr8/gpTsYdJI1dWs2LYC4beGAw93BYUCzJwLx7o0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_07\proud.mp3" size="19458">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>jbUgqxOvScc3uiJJSbMwC79zsNL1kkEXHTGZw/h+TDU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_07\responsibility.mp3" size="28862">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Msr5gMv7Aj4QKzgVI+PfRtC1dLzp2WkaroFB8gTyQ7U=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_07\responsible.mp3" size="22070">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>hEGEHPJwtZiyuHteWidrwviobDQiTQYVzO4++RuT4UE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_07\science.mp3" size="22593">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>x/jeAOUMeG6wBiRGLaK+/UPVGKY0xVLr/g3IYmAAbZw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_07\sculptor.mp3" size="22070">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>qxWfHSg7E/IWYWHin7Wc8jWG1UFzq6xXNY2f3oc+lBQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_07\sculpture.mp3" size="23638">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>VTja7MIsJV21IbWBNvFltIWSrDR9a21hoy14jdjmkDM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_07\secretary.mp3" size="17368">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Dojt1OWaj1m0lRopPnrdoefCz+ZRgGOmMcntL5L9GaM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_07\singer.mp3" size="19458">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>NH6YzCwRgdOrkjpsmd0KK+sEO2vQxksN6xJovEuV7Yk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_07\soap.mp3" size="5432">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>4ZUxg5m8k7my9FviF3m0EsL2ANsX4uXEsClbyEz5dAo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_07\song.mp3" size="5432">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>kkLigbuxlzi/WeXTc6MM5iwxdwKQmSng2am/mUjFoAA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_07\staff.mp3" size="21548">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>BRbaOQlkwkhLmuif1/b+7cJps+AMHN8n21zsS4bDNUI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_07\story.mp3" size="25205">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>MbD+anvcz9NXN0uEfvF5ZIg40VvmUpdy6+U0d0rSJvA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_07\talented.mp3" size="21026">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>FQx87hjCUPt+17kFy5zs4pXNZOe9JHZXaKCcVaxdpfM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_07\tired.mp3" size="18936">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>sg8P6Biq0DF9Ksqyaq0S12/7Ek41l6q3B/ZCo4ByUHY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_07\typical.mp3" size="19458">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>EEByxPW8DnFY5p3k2TtTPMy/d6YPg+UsDeZ2I7FAYqQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_07\work.mp3" size="5014">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>GY3hjwuCv/3Adu+CqDbnb1uR23wCZ+Uu2tFQdxj2w/U=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_07\writer.mp3" size="19981">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>v+aRd6EWPJ9cs7LjtZmzJ1I48xPzn1Y43DYbryLlXUM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_08\all.mp3" size="5014">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>p2Zdu0VdLiJ/v6tM8w4I0LOavgxYHczZkD14qfKU+js=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_08\any.mp3" size="4596">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>UjmtinGQSgysxG8R/AC75R9MtWen3D9WhW8w5Fhu8pI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_08\anybody.mp3" size="23115">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>HE2tF8j3UwWmO00xswM8/I93uBjgTHJ1gbq4jLPCRwg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_08\anyone.mp3" size="23115">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>YX0tHUH5L3nEAUo+ghtPMWjLJCBaPDJ4sBN4xGuzWzo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_08\anything.mp3" size="18936">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>h0XydmGYkTiYvk8d8GD+qnTLnkAD+KG4d14hxKfELi8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_08\anywhere.mp3" size="21026">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>WW9uHpfqlHSZPade5F15wk6aC45kRce204w+2aUdcms=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_08\both.mp3" size="4387">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Z4iEFQbbRuoXwiC6IF8p19qQ/olOGisJVZRpRLPYTMw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_08\cloudy.mp3" size="19458">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>AVnVVeVQtL+t1f12/0Qy/XMf/wCsHhNgNk55Ko1CJx0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_08\cold.mp3" size="6686">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>JnuBlgPvgtYJEQxFHUdHadFksQMgq4ytJammkB8sz/w=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_08\cool.mp3" size="6686">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>uPDGpmRimoVmoTDAGvXTzvzyj0zuBxrHCPPLv6EfM94=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_08\each.mp3" size="5641">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>CrfsLWuwCIrcK8JuRgVIxCbR+6Jhxq0vJda/N8eTRcE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_08\either.mp3" size="18413">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>vtFLvvWoA0mu/rqWxck/0gugwgGOOOkCUBDweVROjkA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_08\every.mp3" size="17891">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>CRJN4LAuXcutYiNS/IELtJKCm9DGH3SBWwEXtD+i40o=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_08\everybody.mp3" size="18413">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Oi58eBjXtXxZF5QnIoQGkA1RXn4vuB3QzDMuCpN7KP4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_08\everyone.mp3" size="18936">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Dbm9jTkHPC/5APEAe9+dNYaXW49k4k2vziGzAoh/qDg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_08\everything.mp3" size="18936">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>/rcTtSIYCe7HBhI0Q8QKmLHkLZDATfl2PDc0WZ8Ie1A=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_08\everywhere.mp3" size="21548">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>KrNnVGvwFwKP8b93BMhfQrXy15VWUa7GkrwvV2q2nNM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_08\most.mp3" size="5850">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>uJDkdfn3NLNj2DZxdLYzNfzQMu1FpyvncAIQT1aZ9+w=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_08\nasty.mp3" size="21548">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>wb3onjIKVH0ULz2P15kQdH4Lu8D2vxMvPUtgnFqiyHs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_08\neither.mp3" size="19981">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>OtHyQR00US+nTne7j1KfumVEHmEF7Zk3cKYuu15QRO4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_08\no.mp3" size="6477">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>RSbNcFwz+r4muAfa8pGzWGTq8NW1RWPsjRsqSwX2X5g=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_08\nobody.mp3" size="18413">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>SBldUZ8JhWYX9hA5F3bLOCohoXK+urOly1SEUyxftk8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_08\none.mp3" size="6477">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>YgariRa/DIxEL78QBZsngHLCI0VeGCIr9DlOBNQcShE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_08\nothing.mp3" size="17891">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>v28Li1OsesNbFJBB90y/eVZlhR9BjHDlyPAV0IkiZfY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_08\nowhere.mp3" size="19981">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>nJeX7VJ/QXGN5lBbGt0qqIHWQYSyhXe49U//jFsvWQM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_08\one.mp3" size="6686">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>IoBne4NIZ0fPy8/NpYsk8udDuENayuqSuR1QjpvbX7g=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_08\other.mp3" size="15279">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>tbY8MpuetuIQB+MfItDT6KNzxGHoJUtH19D5B6ZDFQ0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_08\own.mp3" size="6895">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>3HNAIawV8NeOJSXqWTTlQrWAP/IzgaC2fy1sf15fPAw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_08\raining.mp3" size="16718">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>YQ2AJkfAmgmRADi9pUr2ORuelkFn9+2Jf19s5ZpA4yw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_08\rainy.mp3" size="19458">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>mJZaDFMXHR7FnuHCCV/M+zEdkh1SWPOgJkgS05Wzpw0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_08\rest.mp3" size="5432">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>e+jAX+i6a98zzgYmD2ebmnjNRvwm2ulhc+U+K2BzV0M=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_08\same.mp3" size="6686">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>fUiKOKGgPGlD8mY8DyX672UPhrJ3PPpqp9Xlmg9wyHE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_08\snowing.mp3" size="20375">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>t+uHfmEHBE+yuhc46gcMCbvV5isFhnGKd3FFZZhtj1g=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_08\some.mp3" size="5641">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>wn8lZbLCMyhS56bD3OjLIpiPCxaHliJDc3+gy41eMXk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_08\somebody.mp3" size="19981">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>d4bPjuEHk9LLSXPsC2PFoHb0aR7O7ZzL/w142sgsJ2I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_08\someone.mp3" size="19981">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>DgEAS/47U1/VyRwF28TqTfX3JDrPVsxDNgyoN7NlDdE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_08\something.mp3" size="21548">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Avdb+8dD3bxw6XC0hk27AP+mW+lIGHxOtSA4whh6nYY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_08\somewhere.mp3" size="24683">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Mo1HEdR8sfyv76VyrQ92S4lhOLkqfYEBCyg59KIcdE0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_08\stuffy.mp3" size="19981">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>hLzfsImydRrOqHdvCKKC2LdacKnZp0G5NcvIMhD4y+Q=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_08\sunny.mp3" size="17368">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>vCl9VwJbxCWyjIYjEzttdyneaGrfo855acbQfhqcVgM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_08\weather.mp3" size="17368">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2QyoQgFeTkEPXXw2oQRWfYQTUBLA0/16ROWEnezC9hY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_08\whole.mp3" size="15279">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>9FXtWtxINBlrKBElVNyCGeszRZYIU5NMXK3KCF1wjIg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\mp3_08\windy.mp3" size="18413">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+CFoN8+NXPH83dhZYS6CGsY5WE3eWbKBBG96Bhi2x8k=</dsig:DigestValue>
+    </hash>
+  </file>
+</asmv1:assembly>
